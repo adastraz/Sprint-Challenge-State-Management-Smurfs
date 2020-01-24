@@ -23,10 +23,28 @@ In this challenge, you are to build a Smurfs village utilizing context or Redux 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What problem does the context API help solve?
+
+Passing data without prop drilling! Super helpful for larger applications (redux is next step up)
+
 - [ ] In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
+
+actions in redux are your function calls, you use these to dispatch a signal and a 'payload' (data) to the reducer. 
+
+The reducer is where you alter state based on the signals that are recieved from actions. 
+
+Store is what connects these two together, holds state
+
 - [ ] What is the difference between Application state and Component state? When would be a good time to use one over the other?
+
+Application state is on a wider scale, so like data that you are passing to and from an API that your website is connected to. Component based state is more like when they change the text inside an input, you hold that 'state' there. 
+
 - [ ] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
+
+This is what allows you to return a fucnction instead of an object in actions
+
 - [ ] What is your favorite state management system you've learned and this sprint? Please explain why!
+
+Redux, while although it's confusing I can see the possibilities with it as we move forward. I'm actually pretty happy I went against the curve today and did this project in Redux rather than useContext. I wasn't quite able to get stretch but I'm okay with that, I want to come back to this project and add stretch when I can. This was a really hard week for me. Managing my time as a PT TL and learning this while having an 'off' week in my personal life really made completing this project that much more fufilling. Definitely the happiest I've been from where I stand as a student at lambda right now. 
 
 ## Project Set Up
 
